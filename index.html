@@ -1,0 +1,657 @@
+<html>
+<head>
+	<!-- Reqired meta tags -->
+	<meta charset="utf-8">
+	<meta>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.1/css/all.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+<style>
+	
+	#msform fieldset:not(:first-of-type) {
+	display: none
+}
+</style>
+</head>
+
+
+
+<body>
+
+	<div class="main-content">
+		<header class="site-header ">
+			<div class="left-logo">
+				<h6 class="logo"><img src="images/logos/Declare-Certo-logo.png" alt=""></h6>
+				<div class="restituir-cus" style="display: none;">
+					<ul>	
+						<li>
+							<p>Melhor</p>
+							<h4 class="green-text">R$ 400 a restituir</h4>
+						</li>
+						<li>
+							<p>Pior cenario</p>
+							<h4 class="red-text">R$ 550 a pagar</h4>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="right-profile">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<img src="/images/Grupo-de-máscara.png" width="40" height="40" class="rounded-circle">
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 56px, 0px); top: 0px; left: auto; right: 0; will-change: transform;">
+						<a class="dropdown-item" href="#">Dashboard</a>
+						<a class="dropdown-item" href="#">Edit Profile</a>
+						<a class="dropdown-item" href="#">Log Out</a>
+					</div>
+					</li>   
+				</ul>
+			</div>
+		</header>
+		<div class="card card0">
+
+			<div class="d-flex flex-lg-row flex-column-reverse">
+
+				<div class="card card1">
+
+					<div class="row d-flex1 pt-3 d-none">
+
+						<h6 class="logo"><img src="images/logos/Declare-Certo-logo.png" alt=""></h6>
+
+					</div>
+
+					<div class="row justify-content-center my-auto">
+
+						<div class="col-lg-8 my-5 text-center nucelo-full">
+							<form id="msform">
+								<ul id="progressbar" class="progressbar" style="display: none;">
+
+									<li class="progressbar-dots active first"><span><img class="icon-img" src="images/Step1knowyourclient.svg"></span></li>
+
+									<li class="progressbar-dots first-1 progressbar_text">
+										<h2>Núcleo Familiar</h2>
+
+										<p>Lorem ipsum dolor</p>
+									</li>
+
+									<li class="progressbar-dots second"><span><img class="icon-img" src="images/Step2income.svg"></span></li>
+
+									<li class="progressbar-dots second-1 progressbar_text" style="display: none;">
+										<h2>Arrecadacao</h2>
+
+										<p>Lorem ipsum dolor</p>
+									</li>
+
+									<li class="progressbar-dots third"><span><img class="icon-img" src="images/Step3savings.svg"></span></li>
+
+									<li class="progressbar-dots third-1 progressbar_text" style="display: none;">
+										<h2>Despesas</h2>
+
+										<p>Lorem ipsum dolor</p>
+									</li>
+
+									<li class="progressbar-dots fourth"><span><img class="icon-img" src="images/Step4payment.svg"></span></li>
+
+									<li class="progressbar-dots fourth-1 progressbar_text" style="display: none;">
+										<h2>Saude</h2>
+
+										<p>Lorem ipsum dolor</p>
+									</li>
+
+									<li class="progressbar-dots fiveth"><span><img class="icon-img" src="images/Step5assets.svg"></span></li>
+									<li class="progressbar-dots fiveth-1 progressbar_text" style="display: none;">
+										<h2>Ranking</h2>
+
+										<p>Lorem ipsum dolor</p>
+								
+									</li>
+			
+									<li class="progressbar-dots sixth"><span><img class="icon-img" src="images/Step6personaldataprotection.svg"></span></li>
+									
+									<li class="progressbar-dots sixth-1 progressbar_text" style="display: none;">
+										<h2>Ranking</h2>
+
+										<p>Lorem ipsum dolor</p>
+								
+									</li>
+								</ul>
+							   
+								<fieldset>
+									<h3>Seja bem-vindo(a)!</h3>
+
+									<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+
+									<img src="images/video-img.svg" alt="" class="video-v">
+
+									<!-- <div class="form-group">
+
+										<div class="row">
+
+											<div class="col-lg-7 col-sm-6 m-auto">
+
+												<label class="form-control-placeholder" for="name">Qual o seu nome?</label> 
+
+												<input type="text" id="name" class="form-control">
+
+											</div>
+
+										</div>
+
+									</div> -->
+
+									<!-- <div class="row justify-content-center my-3">
+										<button class="btn btn-gray">Voltar</button>
+									</div> -->
+									<button class="btn btn-gray green-bg next" data-img="images/step2.svg">Continuar</button>
+								</fieldset>
+								<fieldset>
+									<h3>Olá, Marcelo!</h3>
+
+									<p class="text-muted">Para continuarmos, informe o seu endereço.</p>
+
+									<div class="form-group">
+
+										<div class="row">
+
+											<div class="col-sm-6 m-auto">
+												<label class="form-control-placeholder" for="name">Endereco</label>
+												<input type="text" id="name1" class="form-control" required placeholder="Endereco">
+											</div> 
+
+											<div class="col-sm-6 m-auto">
+												<label class="form-control-placeholder" for="name">Bairro</label>
+												<input type="text" id="name2" class="form-control" placeholder="Bairro">
+											</div>
+
+											<div class="col-sm-6 m-auto">
+												<label class="form-control-placeholder" for="name">Complemento</label>
+												<input type="text" id="name3" class="form-control" placeholder="Complemento">
+											</div> 
+											
+											<div class="col-sm-6 m-auto">
+												<label class="form-control-placeholder" for="name">País</label>
+												<input type="text" id="name4" class="form-control" placeholder="País" >
+											</div>
+											<div class="col-sm-6 m-auto">
+												<label class="form-control-placeholder" for="name">Número</label>
+												<input type="text" id="name5" class="form-control" placeholder="Número">
+											</div> 
+											
+											<div class="col-sm-6 m-auto">
+												<label class="form-control-placeholder" for="name">Estado</label>
+												<input type="text" id="name6" class="form-control" placeholder="Estado">
+											</div>
+
+										</div>
+
+									</div>
+									<button class="btn btn-gray previous"  data-img="images/undraw_Balloons.svg">Voltar</button> 
+									<button class="btn btn-gray green-bg next"  data-img="images/step2.svg">Continuar</button>
+								</fieldset>
+								<fieldset>
+									<h3>Muito, bem!</h3>
+
+									<p class="text-muted">Estamos quase finalizando, informe qual sua profissao</p>
+
+									<div class="form-group">
+
+										<div class="row">
+
+											<div class="col-sm-6 m-auto w-full search-input">
+												<label class="form-control-placeholder" for="name" title="Qual sua ocupacao/profissao?">Qual sua ocupacao/profissao?</label>
+												<select  class="form-control search_select" required>
+													<option value="example">example</option>
+													<option value="example 1">example 1</option>
+													<option value="example 2">example 2</option>
+													<option value="example 3">example 3</option>
+													<option value="example 4">example 4</option>
+												</select>
+											</div> 
+										</div>
+
+									</div>
+									<button class="btn btn-gray previous"  data-img="images/step2.svg">Voltar</button> 
+									<button class="btn btn-gray green-bg next"  data-img="images/step2.svg">Continuar</button>
+								</fieldset>
+								
+								<fieldset>
+									<h3>Mais informações aqui</h3>
+
+									<p class="text-muted">Informe abaixo os itens necessários para prosseguir. :)</p>
+
+									<div class="form-group">
+
+										<div class="row">
+											<div class="col-sm-6 m-auto col-lg-7 w-full">
+													<label class="form-control-placeholder" for="Sim">Tem companheiro?</label>
+													<div class="radio">
+														<input id="radio-1" name="Sim" type="radio">
+														<label for="radio-1" class="radio-label">Sim</label>
+														<input id="radio-2" name="Sim" type="radio">
+														<label for="radio-2" class="radio-label">Nao</label>
+													</div>
+												
+											</div> 
+											<div class="col-sm-6 m-auto col-lg-7 w-full">
+													<label class="form-control-placeholder" for="Sim">Tem companheiro?</label>
+													<div class="radio">
+														<input id="radio-3" name="Nao" type="radio">
+														<label for="radio-3" class="radio-label">Sim</label>
+														<input id="radio-4" name="Nao" type="radio">
+														<label for="radio-4" class="radio-label">Nao</label>
+													</div>
+											</div> 
+										</div>
+
+									</div>
+									<button class="btn btn-gray previous"  data-img="images/step2.svg">Voltar</button> 
+									<button class="btn btn-gray green-bg next"  data-img="images/man-right.svg">Continuar</button>
+								</fieldset>
+
+								<fieldset>
+									<h3>Mais informações aqui</h3>
+
+									<p class="text-muted">Informe abaixo os itens necessários para prosseguir. :)</p>
+
+									<div class="form-group">
+
+										<div class="row">
+											<div class="col-sm-12 custom-search">
+												<ul>
+													<li>
+														<button class="custome_select_event active">Carteira Assinada <span><i class="far fa-trash-alt "></i></span></button>
+													</li>
+													<li>
+														<button class="custome_select_event active">Propria Empresa
+														 <span><i class="far fa-trash-alt "></i></span></button>
+													</li>
+													<li>
+														<button class="custome_select_event">Pensao Alimenticia <span><i class="far fa-plus"></i></span></button>
+													</li>
+												</ul>
+											</div>
+											<div class="col-sm-12 search-input">
+												<select  class="form-control search_select" required>
+													<option value="Certeira">Certeira</option>
+													<option value="Autonomo">Autonomo</option>
+													<option value="Propria Empresa">Propria Empresa</option>
+													<option value="Pensao Alimenticia">Pensao Alimenticia</option>
+													<option value="Aluguel de Imovel">Aluguel de Imovel</option>
+												</select>
+											</div>
+										</div>
+
+									</div>
+								   
+									<button class="btn btn-gray previous"  data-img="images/step2.svg">Voltar</button> 
+									<button class="btn btn-gray green-bg next" data-img="images/step6.svg">Continuar</button>
+								</fieldset>
+								<fieldset>
+									<h3>Saude</h3>
+									<p class="text-muted">Informe aqui as despesas medicas do seu nucleo familiar este ano.</p>
+
+									<div class="form-group">
+
+										<div class="row">
+
+											<div class="col-sm-8 m-auto">
+												<label class="form-control-placeholder" for="name">Quem foi beneficiado?</label>
+												<input type="text" id="name" class="form-control" required >
+											</div> 
+
+											<div class="col-sm-4 m-auto">
+												<label class="form-control-placeholder" for="name">CPF/CNPJ</label>
+												<input type="text" id="name" class="form-control">
+											</div>
+
+											<div class="col-sm-8 m-auto">
+												<label class="form-control-placeholder" for="name">Nome do prestador de servico medico</label>
+												<input type="text" id="name" class="form-control">
+											</div> 
+											
+											<div class="col-sm-4 m-auto">
+												<label class="form-control-placeholder" for="name">Total pago</label>
+												<input type="text" id="name" class="form-control"  >
+											</div>
+											<div class="col-sm-8 m-auto">
+												<label class="form-control-placeholder" for="name">Tipo da despesa medica</label>
+												<input type="text" id="name" class="form-control" >
+											</div> 
+											
+											<div class="col-sm-4 m-auto">
+												<label class="form-control-placeholder" for="name">Parte reembolsada</label>
+												<input type="text" id="name" class="form-control" >
+											</div>
+											<div class="col-sm-12 m-auto checkbox-input">
+												<input type="checkbox" name="checkbox1" id="checkbox1">
+												<label for="checkbox1">Incluir outra despesa medica</label>
+											</div> 
+											<div class="col-sm-12 m-auto checkbox-input">
+												<input type="checkbox" name="checkbox1" id="checkbox2">
+												<label for="checkbox2">Incluir outra despesa medica</label>
+											</div> 
+											<div class="col-sm-12 plus-icon">
+											<i class="fal fa-plus add_more_incluir"></i>Incluir outra despesa medica
+											</div> 
+										</div>
+									</div>
+									<button class="btn btn-gray previous" data-img="images/man-right.svg">Voltar</button> 
+									<button class="btn btn-gray green-bg next" data-img="images/step7.svg">Continuar</button>
+								</fieldset>
+								
+								<fieldset>
+									<h3>Resultado</h3>
+									<p class="text-muted mb-2">Avalie abaixo as diferentes formas de declaracao do IRPF do seu nucleo familiar.</p>
+									<p class="text-muted">Clique sobre a opcao desejada para prosseguir!</p>
+									<div class="resultado-price">
+										<input id="1" name="Sim" type="radio" class="resultado_step6"  value="R$ 594,68">
+										<label for="1" class="radio-label">
+											<ul>
+												<li>
+													<span class="count">1</span><h4>Mariana Santos</h4>
+													<p>Carolina Santos dependente</p>
+												</li>
+												   <li>
+													<h4 class="price">R$ 594,68</h4>
+													<p>Impostos</p>
+												</li>
+											</ul>
+										</label>
+										<input id="2" name="Sim" type="radio" class="resultado_step6"  value="R$ 594,68">
+										<label for="2" class="radio-label">
+											<ul>
+												<li>
+													<span class="count">2</span><h4>Mariana Santos</h4>
+													<p>Carolina Santos dependente</p>
+												</li>
+												   <li>
+													<h4 class="price">R$ 594,68</h4>
+													<p>Impostos</p>
+												</li>
+											</ul>
+										</label>
+										<input id="3" name="Sim" type="radio" class="resultado_step6" value="R$ 594,68">
+										<label for="3" class="radio-label">
+											<ul>
+												<li>
+													<span class="count">3</span><h4>Mariana Santos</h4>
+													<p>Carolina Santos dependente</p>
+												</li>
+												   <li>
+													<h4 class="price">R$ 594,68</h4>
+													<p>Impostos</p>
+												</li>
+											</ul>
+										</label>
+										<input id="4" name="Sim" type="radio" class="resultado_step6" value="R$ 594,68">
+										<label for="4" class="radio-label">
+											<ul>
+												<li>
+													<span class="count">4</span><h4>Mariana Santos</h4>
+													<p>Carolina Santos dependente</p>
+												</li>
+												   <li>
+													<h4 class="price">R$ 594,68</h4>
+													<p>Impostos</p>
+												</li>
+											</ul>
+										</label>
+									</div>
+									<button class="btn btn-gray previous" data-img="images/step6.svg">Voltar</button> 
+									<button class="btn btn-gray green-bg next" data-img="images/step7.svg">Continuar</button>
+								</fieldset>
+								<fieldset>
+									<h3>Resultado</h3>
+									<p class="text-muted mb-2">Avalie abaixo as diferentes formas de declaracao do IRPF do seu nucleo familiar.</p>
+									<p class="text-muted">Clique sobre a opcao desejada para prosseguir!</p>
+									<div class="resultado-price">
+										<input id="step7_1" name="resultado-price" type="radio" >
+										<label for="step7_1" class="radio-label step7_1">
+											<ul>
+												<li>
+													<span class="count">1</span><h4>Mariana Santos</h4>
+													<p>Carolina Santos dependente</p>
+												</li>
+												<li>
+													<h4 class="price">R$ 594,68</h4>
+													<p>Impostos</p>
+												</li>
+											</ul>
+										</label>
+									</div>
+									<button class="btn btn-gray previous" data-img="images/step7.svg">Voltar</button> 
+									<!-- <button class="btn btn-gray green-bg next" data-img="images/step7.svg">Continuar</button> -->
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			   <div class="card card2"> 
+					<img id="image" src="images/undraw_Balloons.svg" >
+					<div class="right-text">
+						<h2>Lorem ipsum dolor sit amet</h2>
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+      	<div class="model_heading_1">
+	       <h3>Declaracao Completa!</h3>
+	       <p><i class="fa fa-check" aria-hidden="true"></i></p>
+   		</div>
+   		<div class="model_heading_2">
+	       <h3>Declaracao Enviada com Success</h3>
+	       <p><i class="fa fa-check" aria-hidden="true"></i></p>
+   		</div>
+
+   		<div class="resultado-price model_step1">
+			<label for="moal_" class="radio-label">
+				<ul>
+					<li>
+						<span class="count">1</span><h4>Mariana Santos</h4>
+						<p>Carolina Santos dependente</p>
+					</li>
+					<li>
+						<h4 class="price">Restitulcao: R$ 594,68</h4>
+					</li>
+				</ul>
+			</label>
+		</div>
+		
+        <div class="resultado-price_mode2">
+			<div> <span><i class="fa fa-spinner" aria-hidden="true"></i></span> Voce sera redirecionado para a pagina inicial</div>
+		</div>
+		<button class="btn btn-gray green-bg finish">Enviar para</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Optional JavaScript -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+		var current_fs, next_fs, previous_fs; //fieldsets
+		var opacity;
+
+		$(".next").click(function(){
+			var image_change = $(this).attr("data-img");
+			$("#image").attr("src",image_change);
+			current_fs = $(this).parent();
+			next_fs = $(this).parent().next();
+			//Add Class Active
+
+			if($("fieldset").index(next_fs) == 1){
+				$("#progressbar").show();
+				$(".first").addClass('active');
+				$(".first-1").show();
+			}else if($("fieldset").index(next_fs) > 3 && $("fieldset").index(next_fs) < 5){
+				$(".second").addClass('active');
+				$(".first-1").hide();
+				$(".second-1").show();
+			   // $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+			}else if($("fieldset").index(next_fs) > 4 && $("fieldset").index(next_fs) < 6){
+				$(".third").addClass('active');
+				$(".second-1").hide();
+				$(".third-1").show();
+			}else if($("fieldset").index(next_fs) > 5 && $("fieldset").index(next_fs) < 7){
+				$('.restituir-cus').show();
+				$(".fourth").addClass('active');
+				$(".third-1").hide();
+				$(".fourth-1").show();
+			}else if($("fieldset").index(next_fs) > 6 && $("fieldset").index(next_fs) < 8){
+				$(".fiveth").addClass('active');
+				$(".fourth-1").hide();
+				$(".fiveth-1").show();
+			}
+			
+
+			//show the next fieldset
+			next_fs.show();
+			//hide the current fieldset with style
+			current_fs.animate({opacity: 0}, {
+				step: function(now) {
+				// for making fielset appear animation
+				opacity = 1 - now;
+
+				current_fs.css({
+				'display': 'none',
+				'position': 'relative'
+				});
+				next_fs.css({'opacity': opacity});
+				},
+				duration: 600
+			});
+		});
+
+		$(".previous").click(function(){
+			var image_change = $(this).attr("data-img");
+			$("#image").attr("src",image_change);
+			current_fs = $(this).parent();
+			previous_fs = $(this).parent().prev();
+			if($("fieldset").index(previous_fs) == 0){
+				$("#progressbar").hide();
+			}else if($("fieldset").index(previous_fs) == 3){
+				$(".second").removeClass('active');
+				$(".first-1").show();
+				$(".second-1").hide();
+			}else if($("fieldset").index(previous_fs)== 4){
+				$(".third").removeClass('active');
+				$(".second-1").show();
+				$(".third-1").hide();
+			}else if($("fieldset").index(previous_fs) == 5){
+				$('.restituir-cus').hide();
+				$(".fourth").removeClass('active');
+				$(".third-1").show();
+				$(".fourth-1").hide();
+			}else if($("fieldset").index(previous_fs) == 6){
+				$(".fiveth").removeClass('active');
+				$(".fourth-1").show();
+				$(".fiveth-1").hide();
+			}
+			//Remove class active
+			//$("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+			//show the previous fieldset
+			previous_fs.show();
+
+			//hide the current fieldset with style
+			current_fs.animate({opacity: 0}, {
+			step: function(now) {
+			// for making fielset appear animation
+			opacity = 1 - now;
+
+			current_fs.css({
+			'display': 'none',
+			'position': 'relative'
+			});
+			previous_fs.css({'opacity': opacity});
+			},
+			duration: 600
+			});
+		});
+
+		
+		$(".submit").click(function(){
+		return false;
+		})
+		  $('.search_select').select2();
+
+	});
+
+
+	$(document).on('click',".custome_select_event",function(){
+
+		var trash = 'fa-trash-alt';
+		var add = 'fa-plus';
+		if($(this).hasClass('.active')){
+			
+		 	$(this).find('i').removeClass(add)
+			$(this).find('i').addClass(trash)
+			$(this).addClass("active");
+		}else{
+			$(this).find('i').removeClass(trash)
+			$(this).find('i').addClass(add)
+		 	$(this).removeClass("active");
+		}
+			
+	});
+	$(document).on('click',".custome_select_event",function(){
+	$(this).toggleClass('.active');
+	});
+	/*$(document).on('click',".custome_select_event",function(){
+		var trash = 'fa-trash-alt';
+		var add = 'fa-plus';
+		
+	});*/
+
+	$(document).on('click',".add_more_incluir",function(){
+	    var html ='<div class="col-sm-12 m-auto checkbox-input"><input type="checkbox" name="checkbox1" id="checkbox2"><label for="checkbox2">Incluir outra despesa medica</label></div>';
+	 $(this).parent('div').before(html);
+	});
+	$(document).on('click',"#step7_1",function(){
+	    $('#exampleModal').modal({backdrop: 'static', keyboard: false})  
+	});
+	$(document).on('click',".finish",function(){
+	    $('.model_heading_1').hide();
+	    $('.model_step1').hide();
+	    $('.model_heading_2').show();
+	    $('.resultado-price_mode2').show();
+	    $(this).hide();
+	});
+	$(document).on('change',".search-input .search_select",function(){
+		 var text_html ='<li><button class="active custome_select_event">'+$(this).val()+'<span><i class="far fa-trash-alt "></i></span></button></li>';
+		 $( ".custom-search li" ).last().after(text_html);
+	});
+	</script>
+</body>
+
+
+
+</html>
